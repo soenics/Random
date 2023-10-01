@@ -1,0 +1,161 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.titleA{
+    position: relative;
+    bottom: 170px;
+}
+.mainA{
+    position: absolute;
+    width: 350px;
+    height: 300px;
+}
+
+
+.yesbtn{
+    position: relative;
+    right: 0px;
+    width: 80px;
+    height: 50px;
+    top: 100px;
+
+}
+.nobtn{
+    position: relative;
+    width: 80px;
+    height: 50px;
+    left: 150px;
+    top: 100px
+}
+.imgA{
+    position: absolute;
+    top: 50px;
+    background-image: url("image/gayimage.jpg");
+    width: 250px;
+    height: 280px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.imgB{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-image: url("image/gay2.jpg");
+    width: 250px;
+    height: 280px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.imgC{
+    position: absolute;
+    top: 50px;
+    right: 250px;
+    background-image: url("image/gay3.jpg");
+    width: 250px;
+    height: 280px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.imgD{
+
+    position: absolute;
+    top: 330px;
+    right: 250px;
+    background-image: url("image/gay5.jpg");
+    width: 250px;
+    height: 280px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.imgE{
+
+    position: absolute;
+    top: 330px;
+    left: 50px;
+    background-image: url("image/gay6.jpg");
+    width: 250px;
+    height: 280px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.imgF{
+
+    position: absolute;
+    top: 330px;
+    left: 300px;
+    background-image: url("image/gay7.jpg");
+    width: 250px;
+    height: 280px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.imgG{
+
+    position: absolute;
+    top: 600px;
+    right: 250px;
+    background-image: url("image/gay8.jpg");
+    width: 250px;
+    height: 280px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imgH{
+
+    position: absolute;
+    top: 600px;
+    left: 50px;
+    background-image: url("image/gay9.jpg");
+    width: 250px;
+    height: 280px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+@media (max-width: 700px) {
+    h1{
+        color: red;
+    }
+.imgA{
+    width: 250px;
+    left: 150px;
+    
+}
+.imgB{
+    width: 150px;
+}
+.imgC{
+    width: 150px;
+}
+.imgD{
+    width: 150px;
+}
+.imgE{
+    width: 150px;
+}
+.imgF{
+    width: 200px;
+    left: 200px;
+}
+.imgG{
+    width: 150px;
+}
+.imgH{
+    width: 150px;
+}
+
+    
+}
